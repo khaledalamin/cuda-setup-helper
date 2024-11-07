@@ -1,0 +1,11 @@
+name: gpu-ml-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - tensorflow-gpu
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=${CUDA_VERSION}
